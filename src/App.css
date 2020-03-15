@@ -214,6 +214,10 @@ p {
 	font-size: 1.6rem;
 }
 
+a {
+	color: inherit;
+}
+
 button {
 	font-size: 1.6rem;
 	font-weight: 600;
@@ -235,7 +239,6 @@ button {
 	color: #fff;
 	width: 75%;
 	margin: 0 auto;
-	box-shadow: 0 16px 22px rgb(0, 0, 0, 0.2);
 }
 
 /*     */
@@ -363,15 +366,27 @@ html {
 	margin-bottom: 1rem;
 }
 
+.centre-details {
+	margin-bottom: 1.5rem;
+}
+
 .centre-detail-title {
 	font-weight: 700;
 }
 
 .centre-details p {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	color: #898a8f;
 }
 
+.centre-details a {
+	color: #6e78f7;
+}
+
 .centre-details p:not(:last-child) {
-	margin-bottom: 0.25rem;
+	margin-bottom: 0.5rem;
+}
+
+.centre-learn {
+	display: flex;
 }

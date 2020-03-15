@@ -20,6 +20,7 @@ function App() {
 		<div className="App">
 			<Router>
 				<Switch>
+					<Redirect from="/" exact to="/self-assessment" />
 					<Route path="/news" component={News} />
 
 					<Route path="/self-assessment" component={IntroAssess} />
