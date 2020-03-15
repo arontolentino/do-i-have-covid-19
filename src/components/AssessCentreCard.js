@@ -6,19 +6,20 @@ class AsessCentreCard extends Component {
 		return (
 			<div className="assess-centre-card">
 				<div className="centre-name">
-					<h2>William Osler Health System - Peel Memorial</h2>
+					<h2>{this.props.centre.name}</h2>
 				</div>
 				<div className="centre-details">
 					<p>
-						<span className="centre-detail-title">Address:</span> 20 Lynch St,
-						Brampton, ON L6W 2Z8
+						<span className="centre-detail-title">Address:</span>{' '}
+						{this.props.centre.address}
 					</p>
 					<p>
-						<span className="centre-detail-title">Phone:</span> (905) 494-2120
+						<span className="centre-detail-title">Phone:</span>{' '}
+						{this.props.centre.phone}
 					</p>
 					<p>
-						<span className="centre-detail-title">Hours:</span> Everyday from
-						10:00AM to 8:00PM{' '}
+						<span className="centre-detail-title">Hours:</span>{' '}
+						{this.props.centre.hours}
 					</p>
 				</div>
 			</div>
