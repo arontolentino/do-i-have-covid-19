@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { NavLink } from 'react-router-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faNewspaper,
@@ -15,16 +17,24 @@ class Nav extends Component {
 				<div className="main-wrapper">
 					<ul className="nav-list">
 						<li className="nav-item">
-							<FontAwesomeIcon icon={faNewspaper} />
-							<p>Latest News</p>
+							<NavLink activeClassName="nav-active" to="/news">
+								<FontAwesomeIcon icon={faNewspaper} />
+								<p>Latest News</p>
+							</NavLink>
 						</li>
+
 						<li className="nav-item">
-							<FontAwesomeIcon icon={faNotesMedical} />
-							<p>Assessment</p>
+							<NavLink activeClassName="nav-active" to="/self-assessment">
+								<FontAwesomeIcon icon={faNotesMedical} />
+								<p>Assessment</p>
+							</NavLink>
 						</li>
+
 						<li className="nav-item">
-							<FontAwesomeIcon icon={faHospital} />
-							<p>Test Centres</p>
+							<NavLink activeClassName="nav-active" to="/assessment-centres">
+								<FontAwesomeIcon icon={faHospital} />
+								<p>Test Centres</p>
+							</NavLink>
 						</li>
 					</ul>
 				</div>

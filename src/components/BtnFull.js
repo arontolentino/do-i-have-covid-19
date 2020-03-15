@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class BtnFull extends Component {
 	state = {};
 	render() {
-		return <button class="btn-half">{this.props.children}</button>;
+		return <button class="btn">{this.props.children}</button>;
 	}
 }
 

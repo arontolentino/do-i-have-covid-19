@@ -221,7 +221,7 @@ button {
 	padding: 0 1.5rem;
 }
 
-.btn-half {
+.btn {
 	padding: 1rem 3rem;
 	border-radius: 24px;
 	border: none;
@@ -229,6 +229,7 @@ button {
 	color: #fff;
 	width: 75%;
 	margin: 0 auto;
+	box-shadow: 0 16px 22px rgb(0, 0, 0, 0.2);
 }
 
 /*     */
@@ -275,6 +276,18 @@ button {
 	text-align: center;
 }
 
+.nav-active {
+	color: #333348;
+}
+
+.nav-active svg {
+	color: #6e78f7 !important;
+}
+
+.nav-active p {
+	color: #333348 !important;
+}
+
 .nav-item svg {
 	font-size: 2rem;
 	color: #b6bbfb;
@@ -284,6 +297,7 @@ button {
 .nav-item p {
 	font-size: 1.2rem;
 	font-weight: 600;
+	color: #94949f;
 }
 
 /*      */
@@ -314,5 +328,5 @@ button {
 	color: #fff;
 	box-shadow: 0 16px 22px rgb(0, 0, 0, 0.2);
 	text-align: center;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }

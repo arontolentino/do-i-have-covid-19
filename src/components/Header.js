@@ -8,7 +8,7 @@ class Header extends Component {
 				<div className="main-wrapper">
 					<div className="header-title">
 						<h1>COVID-19</h1>
-						<h1>Self Assessment</h1>
+						<h1>{this.props.children}</h1>
 					</div>
 					<div className="header-province"></div>
 				</div>
