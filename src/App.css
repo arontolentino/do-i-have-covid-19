@@ -204,6 +204,11 @@ h1 {
 	font-weight: 700;
 }
 
+h2 {
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
 p {
 	font-size: 1.6rem;
 }
@@ -236,9 +241,13 @@ button {
 /* APP */
 /*     */
 
-.App {
+html {
 	background: #f5f5f5;
+}
+
+.App {
 	height: 100vh;
+	margin-bottom: 9rem;
 }
 
 /*        */
@@ -324,9 +333,41 @@ button {
 .intro-box {
 	background: #f15887;
 	border-radius: 24px;
-	padding: 3rem 1.5rem;
+	padding: 3rem 2rem;
 	color: #fff;
 	box-shadow: 0 16px 22px rgb(0, 0, 0, 0.2);
 	text-align: center;
 	margin-bottom: 3rem;
+}
+
+/*                    */
+/* ASSESS CENTRE CARD */
+/*                    */
+
+.assess-centre-card {
+	background: #fff;
+	border-radius: 24px;
+	padding: 2rem;
+}
+
+.centre-name {
+	border-bottom: 0.5px solid #ececec;
+	margin-bottom: 1rem;
+}
+
+.centre-name h2 {
+	margin-bottom: 1rem;
+}
+
+.centre-detail-title {
+	font-weight: 700;
+}
+
+.centre-details p {
+	font-size: 1.3rem;
+	color: #898a8f;
+}
+
+.centre-details p:not(:last-child) {
+	margin-bottom: 0.25rem;
 }

@@ -4,6 +4,7 @@ import Header from '../../Header';
 import Nav from '../../Nav';
 import IntroBox from '../../IntroBox';
 import BtnFull from '../../BtnFull';
+import AssessCentreList from '../../AssessCentreList';
 
 class AssessCentres extends Component {
 	state = {};
@@ -27,6 +28,8 @@ class AssessCentres extends Component {
 								assessment centres are available.
 							</p>
 						</IntroBox>
+
+						<AssessCentreList />
 					</div>
 				</main>
 
