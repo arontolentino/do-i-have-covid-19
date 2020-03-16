@@ -31,9 +31,9 @@ class AsessCentreCard extends Component {
 				</div>
 
 				<div className="centre-learn">
-					<BtnFull>
-						<a href={this.props.centre.learn_more}>Learn More</a>
-					</BtnFull>
+					<a href={this.props.centre.learn_more} class="btn">
+						Learn More
+					</a>
 				</div>
 			</div>
 		);

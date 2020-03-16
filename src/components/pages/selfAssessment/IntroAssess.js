@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { Link } from 'react-router-dom';
+
 import Header from '../../Header';
 import Nav from '../../Nav';
 import IntroBox from '../../IntroBox';
@@ -21,13 +23,15 @@ class IntroAssess extends Component {
 							</p>
 							<br />
 							<p>
-								These series of questions are based on the Alberta’s COVID-19
-								self assessment tool. Ontario will soon plan to launch its own
-								COVID-19 self assessment tool.
+								This information is not intended to provide medical advice. If
+								you have medical questions, consult a health practitioner or
+								your local public health unit.
 							</p>
 						</IntroBox>
 
-						<BtnFull>Start Self Assessment</BtnFull>
+						<BtnFull link="/self-assessment/severe">
+							Start Self Assessment
+						</BtnFull>
 					</div>
 				</main>
 

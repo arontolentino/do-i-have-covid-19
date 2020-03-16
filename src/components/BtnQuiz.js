@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
+
 import { Link } from 'react-router-dom';
 
-class BtnFull extends Component {
+class BtnQuiz extends Component {
 	state = {};
 	render() {
 		return (
-			<Link class="btn" to={this.props.link}>
+			<Link class="btn-quiz" to={this.props.link}>
 				{this.props.children}
 			</Link>
 		);
 	}
 }
 
-export default BtnFull;
+export default BtnQuiz;
